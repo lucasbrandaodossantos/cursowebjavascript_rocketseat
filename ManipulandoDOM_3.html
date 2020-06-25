@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <ul></ul>              
+            <script>
+
+           /*A partir do seguinte vetor:
+
+var nomes = ["Diego", "Gabriel", "Lucas"];
+
+Preencha uma lista (<ul>) no HTML com os itens da seguinte forma:
+
+● Diego
+● Gabriel
+● Lucas
+*/ 
+
+            var nomes = ["Diego", "Gabriel", "Lucas"]
+            var lista = document.querySelector('ul');
+            
+            for (nome of nomes) {
+                var elementoLista = document.createElement('li');
+                var conteudoElementoLista = document.createTextNode(nome)
+                
+                elementoLista.appendChild(conteudoElementoLista)
+                lista.appendChild(elementoLista)
+            }
+                
+           </script>
+    </body>
+</html>

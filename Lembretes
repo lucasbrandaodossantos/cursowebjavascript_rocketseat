@@ -1,0 +1,25 @@
+Estudar sobre switch no Javascript:
+1ª coisa - Deve se levar em consideração que o switch (x) seja comparado com outro valor. 
+Caso este outro valor seja a resposta de uma expressão, é esta resposta que será comparada com o switch (x):
+let x = 1;
+switch(x) {
+    case x > 0:
+        console.log('positivo');
+        break;
+    case x < 0:
+        console.log('negativo');
+        break;
+    default:
+        console.log('nenhum');
+}
+
+switch(x) vai comparar o valor de x (que é o número 1) com o resultado das expressões x > 0 e x < 0. 
+Só que ambas são comparações, cujo resultado é um booleano (true ou false).
+
+Segundo a documentação (e a especificação da linguagem), switch usa o operador === para comparar os valores. 
+Como o número 1 não é um booleano, ele não é igual a true, nem a false (tanto 1 === true quanto 1 === false são falsas), 
+e portanto ele cai no caso default, e o código acima imprime "nenhum".
+
+___________________________________________________________________________________________________________________________
+Reforçar for..of
+Estudar let
