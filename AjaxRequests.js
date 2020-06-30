@@ -8,3 +8,4 @@ ajaxRequest.onreadystatechange = function () {
         console.log(JSON.parse(ajaxRequest.responseText));
     }
 }
+

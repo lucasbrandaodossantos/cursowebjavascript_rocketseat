@@ -1,0 +1,48 @@
+.texto-tamanho-padrão {
+    color: #ffffff;
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+.texto-tamanho-grande-negrito{
+    color: #ffffff;
+    font-family: montserrat;
+    font-style:bold;
+    font-size: 40px;
+}
+.texto-tamanho-pequeno{
+    color: #ffffff;
+    font-family: montserrat;
+    font-size: 10px;  
+}
+
+.principal-div{
+    background-color: #707070;
+    width: auto;
+    height: auto;
+    margin: 10%;
+}
+
+html{
+    background-color: #181818;
+}
+
+#Menu ul{
+    text-align: right;
+}
+
+#Menu ul li{
+    display: inline-block;
+    font-family: montserrat;
+    color: #ffffff;
+    margin-right: 15px;
+    text-align: right;
+}
+
+#Menu ul li a {
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: right;
+    text-decoration: none;
+}
