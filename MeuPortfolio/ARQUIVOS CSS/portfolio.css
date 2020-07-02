@@ -35,14 +35,10 @@ html{
     display: inline-block;
     font-family: montserrat;
     color: #ffffff;
-    margin-right: 15px;
-    text-align: right;
-}
+    }
 
 #Menu ul li a {
     color: #ffffff;
-    display: inline-block;
     margin-right: 15px;
-    text-align: right;
     text-decoration: none;
 }
