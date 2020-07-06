@@ -21,10 +21,17 @@ p{
 }
 
 .principal-div{
-    background-color: #707070;
-    width: auto;
-    height: auto;
-    margin: 10%;
+    width: 800px;
+    height: max-content;
+    margin: 200px auto;
+    top: 50%;
+    margin-top: 50px;
+}
+
+.principal-div img {
+    width: 150px;
+    height: 200px;
+    padding-right: 20px;
 }
 
 html{
@@ -49,13 +56,14 @@ html{
 
 .div-sobre-mim{
     background-color: #2a2a2a;
-    vertical-align: center;
-    align-content: right;
-    max-width: 800px;
-    max-height: fit-content;
-       
+    margin: 200px auto;
+    top: 50%;
+    margin-top: 50px;
+    width: 900px;
+    height: 500px;
 }
-.img-div-sobre-mim{
+.div-sobre-mim img{
     width: 279px;
     height: 500px;
+    padding-right: 20px;
 }
