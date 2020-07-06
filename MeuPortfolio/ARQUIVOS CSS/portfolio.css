@@ -1,21 +1,21 @@
 p{
     font-family: montserrat;
-    color:#ffffff;    
+    color:var(--cor-das-letras);    
 }
 .texto-tamanho-padrão {
-    color: #ffffff;
+    color:var(--cor-das-letras);
     font-family: montserrat;
     font-size: 20px;
 }
 
 .texto-tamanho-grande-negrito{
-    color: #ffffff;
+    color:var(--cor-das-letras);
     font-family: montserrat;
     font-style:bold;
     font-size: 40px;
 }
 .texto-tamanho-pequeno{
-    color: #ffffff;
+    color:var(--cor-das-letras);
     font-family: montserrat;
     font-size: 10px;  
 }
@@ -45,11 +45,11 @@ html{
 #Menu ul li{
     display: inline-block;
     font-family: montserrat;
-    color: #ffffff;
+    color: var(--cor-das-letras);
     }
 
 #Menu ul li a {
-    color: #ffffff;
+    color: var(--cor-das-letras);
     margin-right: 15px;
     text-decoration: none;
 }
@@ -66,4 +66,8 @@ html{
     width: 279px;
     height: 500px;
     padding-right: 20px;
+}
+
+:root{
+    --cor-das-letras: #ffffff;
 }
