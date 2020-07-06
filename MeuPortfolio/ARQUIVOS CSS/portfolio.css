@@ -1,3 +1,7 @@
+p{
+    font-family: montserrat;
+    color:#ffffff;    
+}
 .texto-tamanho-padrão {
     color: #ffffff;
     font-family: montserrat;
@@ -41,4 +45,17 @@ html{
     color: #ffffff;
     margin-right: 15px;
     text-decoration: none;
+}
+
+.div-sobre-mim{
+    background-color: #2a2a2a;
+    vertical-align: center;
+    align-content: right;
+    max-width: 800px;
+    max-height: fit-content;
+       
+}
+.img-div-sobre-mim{
+    width: 279px;
+    height: 500px;
 }
