@@ -67,11 +67,50 @@ mostraUser(user);
 
 /* REST E SPREAD */
 
+/* REST */
 const usuario = {
     nome2: 'Lucas',
     idade2: 24,
     empresa: 'Nenhuma'
 }
 
-const {nome2, ...resto} = usuario;
+const {nome2, ...resto} = usuario; // este "..." na declaração da variável serve para obter o RESTO das informações
 console.log(nome, resto);
+
+/*  SPREAD  */
+
+const array1 = [1,2,3]
+const array2 = [2,3,4]
+
+const array3 = [...array1, ...array2]; // faz o papel de propagação, de repasse dos dados para outra estrutura.
+
+console.log(array3);
+
+const usuario2 = {
+    nome3: 'Lucas',
+    idade3: 24,
+    empresa2: 'Nenhuma'
+}
+const usuario3 = {...usuario2, nome3: 'João'}//repeti todas as propriedades de usuario2 no usuario3 mas fiz uma modificação em um valor de uma propriedade
+console.log(usuario3);
+
+
+/*TEMPLATE LITERALS*/
+
+const nomeLiteral = 'Lucas'
+const idadeLiteral = 24
+
+console.log(`Meu nome é ${nome} e tenho ${idade} anos`) // utilização de ${} para concatenação de variáveis em strings, tudo dentro de crase `` ao invés de aspas ou apóstrofo
+
+
+/*OBJECT SHORT SYNTAX*/
+
+const nomeObject = 'Lucas'
+const idadeObject = 24
+
+const userObject = { // NÃO PRECISAMOS COLOCAR nomeobject = nomeobject, o ES6 já interpreta de forma simples que a variavel mencionada dentro do objeto se refere a variavel dentro do escopo.
+    nomeObject,
+    idadeObject
+}
+
+console.log(userObject);
