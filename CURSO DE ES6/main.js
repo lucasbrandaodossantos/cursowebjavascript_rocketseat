@@ -75,7 +75,7 @@ const usuario = {
 }
 
 const {nome2, ...resto} = usuario; // este "..." na declaração da variável serve para obter o RESTO das informações
-console.log(nome, resto);
+console.log(nome, ...resto);
 
 /*  SPREAD  */
 
@@ -113,4 +113,4 @@ const userObject = { // NÃO PRECISAMOS COLOCAR nomeobject = nomeobject, o ES6 j
     idadeObject
 }
 
-console.log(userObject);
+console.log(userObject); 
